@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover{
+            background-color: #746ca9;
+            cursor: pointer;
+           
+        }
+
+        body{
+            margin: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        nav{
+            background-color: #FFD900;
+            padding: 25px 0 20px 50px;
+            height: 70px;
+            
+        }
+
+        nav img{
+        }
+
+        section{
+            display: flex;
+        }
+
+        #div1{
+            background-color: #514988;
+            width: 600px;
+            height: 500px;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+            font-size: 14pt;
+            line-height: 30px;
+            font-weight: 400;
+        }
+        
+        #div1 h2{
+            color:#F3C61F;
+            text-transform: uppercase;
+            font-size: 34pt;
+        }
+
+        #div2 p{
+            color: #E33881;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 20pt;
+            margin-top: -40px;
+            margin-left: 30px;
+        }
+
+        #div2 video{
+            margin-left: 10px;
+        }
+
+        footer{
+            display: flex;
+        }
+
+        #footer{
+            width: 500%;
+            text-align: center;
+            color: #F3C61F;
+            text-transform: uppercase;
+            font-size: 16pt;
+        }
+
+        #footer img{
+            width: 140px;
+            
+        }
+        #footer h4{
+           margin-right: 700px;
+
+        }
+
+        #cards{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        #cards button{
+            margin-right: 200px;
+        }
+
+        button{
+            background-color: #514988;
+            width: 350px;
+            height: 90px;
+            border: 0;
+            border-radius: 15px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-weight: 700;
+            transition: 0.8s;
+            
+        }
+
+        .timer{
+            display: grid;
+            grid-auto-flow: column;
+            color: #514988;
+            font-size: 24pt;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="ccxp22.svg">
+    </nav>
+    <section>
+        <div id="div1">
+            <h2>REVIVA O ÉPICO</h2>
+            <h3>De 01 a 04 de Dezembro</h3>
+            <p>Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</p>
+        </div>
+        <div id="div2">
+            <div>
+                <div class="timer">
+                    <div>
+                        <h1 id="dia">03D</h1>
+                        <p>Dias</p>
+                    
+                    </div>
+            
+                    <div>
+                        <h1 id="hora">01H</h1>
+                        <p>Horas</p>
+                        
+                    </div>
+            
+                    <div>
+                        <h1 id="minuto">01M</h1>
+                        <p>Mins</p>
+                        
+                    </div>
+            
+                    <div>
+                        <h1 id="segundo">01S</h1>
+                        <p>Segs</p>
+                        
+                    </div>
+            
+                </div>
+                <p>PARA A MAIOR CCXP DE TODOS OS TEMPOS</p>
+            </div>
+            <video width="700px" controls loop><source src="Arlequina.mp4" type="video/mp4"></video>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer">
+        <h4>Ainda da tempo de garantir o seu, mas corre!</h4>
+        <div id="cards">
+            <div>
+            <img src="thu.svg">
+            <img src="fri.svg">
+            <img src="sat.svg">
+            <img src="sun.svg">
+            </div>
+            <button>Garanta o seu!</button>
+        </div>
+        </div>
+        
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
